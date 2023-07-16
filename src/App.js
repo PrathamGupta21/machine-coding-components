@@ -1,7 +1,10 @@
+import StarRating from './StarRating/StarRating';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <h1>React Components</h1>
+    <div className='App'>
+      <StarRating />
     </div>
   );
 }
