@@ -1,10 +1,10 @@
-import StarRating from './StarRating/StarRating';
 import './App.css';
+import SearchFilter from './SearchFilter/SearchFilter';
 
 function App() {
   return (
     <div className='App'>
-      <StarRating />
+      <SearchFilter />
     </div>
   );
 }
